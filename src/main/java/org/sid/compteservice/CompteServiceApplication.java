@@ -14,6 +14,9 @@ import java.util.Date;
 @SpringBootApplication
 public class CompteServiceApplication {
 
+    // use this commande two run my images app  docker run -e DATABASE_SERVER=jdbc:h2:mem:billing-db -dp 8080:8082 compte-microservice
+    // docker pull mamadoundiaye/compte-microservice:latest
+
     public static void main(String[] args) {
         SpringApplication.run(CompteServiceApplication.class, args);
     }
